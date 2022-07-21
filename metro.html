@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <center>
+        <div>
+            <h1> Welcome to Metro </h1>
+        </div>
+        <div>
+            <label> Source Station: </label>
+                <select id="source">
+                    <option disabled selected>Choose Station</option>               
+                </select>
+        </div>
+        <br>
+        <br> 
+        <div>
+            <label> Destination Station: </label>
+                <select id="dest">
+                    <option disabled selected>Choose Station</option> 
+                </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label> Payment Method: </label>
+            <select id="method">
+                <option value = "select"> Select Payment Mode </option>
+                <option value = "Token"> Token</option>
+                <option value = "Card"> Card</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="fare">Fare:</label>
+            <!--<input type="text" id="fare" name="fare">-->
+            <input id="input-field" type="text" value="Your Fair" disabled>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button id = "btn1"> Calculate </button>
+            <button id = "btn2"> Reset </button>
+        </div>
+        <script src="script.js"></script>
+        </center>
+    </body> 
+</html>
